@@ -1,0 +1,33 @@
+#include <stdio.h>
+2
+#include <string.h>
+3
+#include <math.h>
+4
+#include <stdlib.h>
+5
+​
+6
+int main() {
+7
+​
+8
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */   
+9
+    int a;
+10
+    float b;
+11
+    scanf("%d",&a);
+12
+    scanf("%f",&b);
+13
+    printf("%d\n",a);
+14
+    print("%.2f",b);
+15
+    return 0;
+16
+}
+17
+​
