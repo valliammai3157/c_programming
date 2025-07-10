@@ -6,7 +6,7 @@
 int main() {
 
     /* Enter your code here. Read input from STDIN. Print output to STDOUT */
-    int numbers[5];
+     int numbers[5];
     int sum = 0;
     float average;
     int i;
@@ -18,8 +18,8 @@ int main() {
 
     average = (float)sum / 5;
 
-    printf("Sum of the 5 numbers is: %d\n", sum);
-    printf("Average of the 5 numbers is: %.1f\n", average);
-
+    printf("Sum of the 5 number is : %d\n", sum);
+    printf("Average of the 5 number is : %.1f\n", average);
     return 0;
 }
+
