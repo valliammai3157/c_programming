@@ -5,6 +5,7 @@
 
 int main() {
 
+ 
     /* Enter your code here. Read input from STDIN. Print output to STDOUT */
      char ch;
     scanf("%c",&ch);
@@ -13,7 +14,9 @@ int main() {
 }
     else
     {
-    printf("The Character T is Consonant",ch);
+    printf("The Character %c is Consonant",ch);
     }
+ 
     return 0;
-} 
+}
+
