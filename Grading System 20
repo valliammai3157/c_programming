@@ -1,0 +1,33 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */
+    char name[20];
+    int m1,m2,m3,m4,m5,total;
+    scanf("%s",name);
+    printf("Name of the Student:%s\n",name);
+    scanf("%d\%d\n%d\n%d\n%d\n",&m1,&m2,&m3,&m4,&m5);
+    total=m1+m2+m3+m4+m5;
+    printf("Total Mark:%d\n",total);
+    float avg=(float)total/5;
+    printf("Average Mark:%.1f\n",avg);
+    if(avg==100)
+        printf("Grade Mark:S\n");
+    else if(avg>=90)
+        printf("Grade Mark:A\n");
+    else if(avg>=80)
+        printf("Grade Mark:B\n");
+    else if(avg>=70)
+        printf("Grade Mark:C\n");
+    else if(avg>=60)
+        printf("Grade Mark:D\n");
+    else if(avg>=50)
+        printf("Grade Mark:E\n");
+    else
+        printf("Grade Mark:Fail\n");
+    return 0;
+}
