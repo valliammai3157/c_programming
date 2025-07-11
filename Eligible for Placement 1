@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */
+int main()
+    {
+    int arr,cg;
+    char name[20];
+    scanf("%s",name);
+    scanf("%d\n%d",&arr,&cg);
+    printf("Name of the Student:%s\n",name);
+    if((arr==1&&cg>70)||(arr<=2&&cg>75))
+        printf("%s is Eligible for Placement",name);
+    else
+        printf("%s is Not Eligible for Placement",name);
+               return 0;
+}
